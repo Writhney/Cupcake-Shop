@@ -1,0 +1,138 @@
+{
+    "cupcakes": [
+      {
+        "id": 1,
+        "sabor": "Vainilla",
+        "color": "amarillo",
+        "descripcion": "Gran cupcake sabor vainilla clásica",
+        "precio": 10,
+        "imagen": "https://www.bettycrocker.lat/wp-content/uploads/2020/12/BClatam-recipe-cupcakes-sorpresa-de-merengue-de-limon.png"
+      },
+      {
+        "id": 2,
+        "sabor": "Chocolate",
+        "color": "marrón",
+        "descripcion": "Gran cupcake sabor chocolate clásico",
+        "precio": 15,
+        "imagen": "https://cdn.kiwilimon.com/recetaimagen/21434/th5-640x640-24959.png"
+      },
+      {
+        "id": 3,
+        "sabor": "Fresa",
+        "color": "rojo",
+        "descripcion": "Gran cupcake sabor fresa clásica",
+        "precio": 20,
+        "imagen": "https://d1nsq2txwd94q7.cloudfront.net/public/files/production/recipes/images/3286/fancy/r_3286_1550831701.jpg"
+      },
+      {
+        "id": 4,
+        "sabor": "Zanahoria",
+        "color": "naranja",
+        "descripcion": "Gran cupcake sabor a zanahoria",
+        "precio": 12,
+        "imagen": "https://cdn7.kiwilimon.com/recetaimagen/10983/23723.jpg"
+      },
+      {
+        "id": 5,
+        "sabor": "Oreo",
+        "color": "negro y blanco",
+        "descripcion": "Gran cupcake sabor clásico Oreo ",
+        "precio": 20,
+        "imagen": "https://www.recetin.com/wp-content/uploads/2014/01/cupcakes__oreo.jpg"
+      },
+      {
+        "id": 6,
+        "sabor": "Zarzamora",
+        "color": "morado",
+        "descripcion": "Gran cupcake sabor zarzamora",
+        "precio": 20,
+        "imagen": "https://www.thehersheycompany.com/content/dam/corporate-us/Corporate_international/es_xl/images/recetas/cupcakes-de-zarzamora-con-cookies-n-creme.jpg"
+      },
+      {
+        "id": 7,
+        "sabor": "Limon",
+        "color": "verde",
+        "descripcion": "Gran cupcake sabor limon clásica",
+        "precio": 15,
+        "imagen": "https://cdn7.kiwilimon.com/recetaimagen/30011/32546.jpg"
+      },
+      {
+        "id": 8,
+        "sabor": "Red Velvet",
+        "color": "rojo",
+        "descripcion": "Gran cupcake sabor red velvet",
+        "precio": 15,
+        "imagen": "https://www.cocinayvino.com/wp-content/uploads/2016/12/50966188_l-1024x683.jpg"
+      },
+      {
+        "id": 9,
+        "sabor": "Chocolate",
+        "color": "marrón",
+        "descripcion": "Gran cupcake sabor chocolate con tematica Halloween",
+        "precio": 20,
+        "imagen": "https://apumpkinandaprincess.com/wp-content/uploads/2019/10/Zombie-Cupcakes-Recipe.jpg"
+      },
+      {
+        "id": 10,
+        "sabor": "Vainilla",
+        "color": "arcoiris",
+        "descripcion": "Gran cupcake sabor vainilla color acoiris",
+        "precio": 10,
+        "imagen": "https://static.wixstatic.com/media/abe960_b7473e0fcf0c444a8054e82bb7e2079c~mv2.jpg/v1/fill/w_498,h_332,al_c,q_85,usm_0.66_1.00_0.01/abe960_b7473e0fcf0c444a8054e82bb7e2079c~mv2.jpg"
+      },
+      {
+        "id": 11,
+        "sabor": "Chocolate",
+        "color": "marrón",
+        "descripcion": "Gran cupcake sabor chocolate con fudge de chocolate",
+        "precio": 15,
+        "imagen": "https://www.recetasderechupete.com/wp-content/uploads/2021/10/frosting-choco-4-768x530.jpg"
+      },
+      {
+        "id": 12,
+        "sabor": "Vainilla",
+        "color": "verde",
+        "descripcion": "Gran cupcake sabor vainilla con tematica navideña",
+        "precio": 20,
+        "imagen": "https://www.gourmet.cl/wp-content/uploads/2014/12/cupcake-navidad.jpg"
+      },
+      {
+        "id": 13,
+        "sabor": "Vainilla",
+        "color": "blanco",
+        "descripcion": "Gran cupcake sabor vainilla con tematica de unicornio",
+        "precio": 20,
+        "imagen": "https://macyscakes.com/wp-content/uploads/2021/11/cupcakes-unicornio-web-2-scaled.jpg"
+      },
+      {
+        "id": 14,
+        "sabor": "Chocolate con Caramelo",
+        "color": "marrón",
+        "descripcion": "Gran cupcake sabor chocolate con caramelo",
+        "precio": 20,
+        "imagen": "https://www.hola.com/imagenes/cocina/recetas/20190910149038/cupcakes-chocolate-caramelo/0-717-246/cupcake-caramel-m.jpg"
+      },
+      {
+        "id": 15,
+        "sabor": "Fresa",
+        "color": "rojo y blanco",
+        "descripcion": "Gran cupcake tematica San Valentin",
+        "precio": 25,
+        "imagen": "https://anchetitas.com/wp-content/uploads/2017/03/Aniversario.jpg"
+      }
+
+      
+    ],
+    "servicios": [
+      {
+        "id": 1,
+        "nombre": "Curso de repostería",
+        "descripcion": "Este es un curso desde cero que te enseñará a hacer cupcakes."
+      },
+      {
+        "id": 2,
+        "nombre": "Delivery a toda la ciudad",
+        "descripcion": "Pide desde donde quieras y los cupcakes llegarán a tu casa."
+      }
+    ]
+  }
