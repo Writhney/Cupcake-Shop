@@ -4,16 +4,16 @@ import axios from "axios";
 
 const CardCupcakes = ({title, filter}) => {
     const [cupcakes, setCupcakes] = useState([]);
-    const recurso = `/cupcakes${filter}`;
+    
+    const recurso = `/cupcakes`;
+    const endpoint = `${process.env.REACT_APP_URL_API}`;
 
     useEffect(() => {
       const apiCupcakes = async ()=>{
         try {
-
-            const response = await axios.get(`${process.env.REACT_APP_URL_API}${recurso}`);
+            const response = await axios.get(endpoint);
             const data = response.data;
-
-            setCupcakes(data);
+            setCupcakes(data.cupcakes);
         } catch (error) {
             console.log(error);
         }finally{

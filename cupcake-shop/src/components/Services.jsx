@@ -6,16 +6,15 @@ import axios from 'axios';
 const Services = ({title,filter}) => {
 
     const recurso = `/servicios${filter}`;
+    const edpoint = `${process.env.REACT_APP_URL_API}`
     const [servicios, setServicios] = useState([]);
-    console.log()
 
     useEffect(() => {
         const apiCupcakes = async ()=>{
           try {
-              const response = await axios.get(`${process.env.REACT_APP_URL_API}${recurso}`);
+              const response = await axios.get(edpoint);
               const data = response.data;
-    
-              setServicios(data);
+              setServicios(data.servicios);
           } catch (error) {
               console.log(error);
           }finally{
