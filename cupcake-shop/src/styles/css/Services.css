@@ -1,0 +1,79 @@
+.services-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: var(--padding-container);
+    margin-top: 2rem;
+}
+.servicestitle{
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+}
+
+.serviciosservices{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: var(--padding-container);
+}
+.servicesservice{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    border: 0.25rem solid var(--primary-highlight);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    overflow: hidden;
+    transition: var(--all-transitions);
+    background-color: rgba(0, 0, 0, 0.446);
+}
+.servicesservice:hover {
+    box-shadow:
+      0 0 0.25rem var(--button-color-active),
+      0 0 0.5rem var(--button-color-active),
+      0 0 0.75rem var(--button-color-active);
+    transform: scale(1.05);
+  }
+
+.servicesservice-data{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    text-align: center;
+    padding: 0 1rem;
+    letter-spacing: 0.1rem;
+}
+.servicesservice-data-nombre{
+    margin: 0;
+}
+.servicesservice-data-about{
+    margin: 0;
+}
+.servicesservice-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.servicesservice-button{
+    text-decoration: none;
+    font-weight: 700;
+    background-color: var(--button-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: var(--button-text-color);
+    transition: var(--all-transitions);
+    letter-spacing: 0.1rem;
+    border: none;
+    font-family: 'Zen Loop', cursive;
+    font-size: 1rem;
+} 
+.servicesservice-button--active, .servicesservice-button:hover{
+    background-color: var(--button-color-active);
+}
